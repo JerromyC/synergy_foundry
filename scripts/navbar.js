@@ -11,6 +11,6 @@ menuButton.onclick = function menuAppear() {
     } else {
         navbarLeft.style.display = "none";
         navbarRight.style.display = "none";
-        menuButton.src = "../assets/icons/menu.png";
+        menuButton.src = "./assets/icons/menu.png";
     }
 }
