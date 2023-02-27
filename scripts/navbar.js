@@ -6,10 +6,10 @@ function menuAppear() {
     if(navbarLeft.style.display === "none" && navbarRight.style.display === "none"){
         navbarLeft.style.display = "flex";
         navbarRight.style.display = "flex";
-        menuButton.src = "../assets/icons/close.png";
+        menuButton.src = "./assets/icons/close.png";
     } else {
         navbarLeft.style.display = "none";
         navbarRight.style.display = "none";
-        menuButton.src = "../assets/icons/menu.png";
+        menuButton.src = "./assets/icons/menu.png";
     }
 }
