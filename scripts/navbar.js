@@ -1,7 +1,8 @@
-function menuAppear() {
+const menuButton = document.querySelector(".menuButton");
+
+menuButton.onclick = function menuAppear() {
     const navbarLeft = document.querySelector(".navbarLeft");
     const navbarRight = document.querySelector(".navbarRight");
-    const menuButton = document.querySelector(".menuButton");
 
     if(navbarLeft.style.display === "none" && navbarRight.style.display === "none"){
         navbarLeft.style.display = "flex";
