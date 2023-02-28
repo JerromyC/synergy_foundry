@@ -3,7 +3,7 @@
     width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .introWrapper span {
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 600px){
     .introWrapper {
-        padding-top: 150px;
+        padding-top: 125px;
     }
     
     .introWrapper span {
