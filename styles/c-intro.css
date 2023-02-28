@@ -1,0 +1,95 @@
+.introWrapper {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.introWrapper span {
+    font-size: 25pt;
+    font-weight: 300;
+}
+
+.introWrapper h1 {
+    font-size: 100pt;
+}
+
+.introWrapper h2 {
+    font-size: 40pt;
+    font-weight: 300;
+    margin-top: auto;
+}
+
+.introWrapper .introCTA {
+    margin-top: 12.5%;
+}
+
+.introWrapper .introCTA button {
+    width: 200px;
+    height: 75px;
+    margin-top: 25px;
+    font-size: 15pt;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.introWrapper .introCTA button:first-of-type {
+    background-color: var(--purple);
+    margin-right: 10px;
+}
+
+.introWrapper .introCTA button:last-of-type {
+    background-color: rgba(00, 00, 00, 0.0);
+    border: var(--white) 2.5px solid;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .introWrapper {
+        padding-top: 150px;
+    }
+    
+    .introWrapper span {
+        font-size: 20pt;
+        font-weight: 300;
+    }
+    
+    .introWrapper h1 {
+        font-size: 75pt;
+        line-height: 1.0;
+    }
+    
+    .introWrapper h2 {
+        font-size: 25pt;
+        font-weight: 300;
+        margin-top: auto;
+    }
+    
+    .introWrapper .introCTA {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .introWrapper .introCTA button {
+        font-weight: 100;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .introWrapper .introCTA button:first-of-type {
+        background-color: var(--purple);
+        margin-right: 0px;
+    }
+    
+    .introWrapper .introCTA button:last-of-type {
+        background-color: rgba(00, 00, 00, 0.0);
+        border: var(--white) 2.5px solid;
+        margin-left: 0px;
+    }
+}
