@@ -45,7 +45,8 @@
 
 @media screen and (max-width: 600px){
     .aboutWrapper p {
-        text-align: justify;
+        font-size: 14pt;
+        text-align: left;
     }
     
     .aboutWrapper .fillerImg {
