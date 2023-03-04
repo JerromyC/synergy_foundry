@@ -1,0 +1,123 @@
+.pricingWrapper p {
+    color: var(--grey);
+    font-size: 20pt;
+}
+
+.pricingWrapper strong {
+    color: var(--grey);
+    font-size: 20pt;
+}
+
+.pricingGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.pricingGrid_tile {
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2.5px solid var(--grey);
+    border-radius: 5px;
+    box-shadow: rgba(33, 33, 33, 0.75) 5px 5px;
+}
+
+.pricingGrid_tile p {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pricingGrid_tile ul{
+    color: var(--grey);
+    text-align:  left;
+    margin: 0px auto;
+}
+
+.pricingGrid_tile li{
+    color: var(--grey);
+    list-style: disc;
+    font-size: 16pt;
+}
+
+.pricingGrid_tile button {
+    width: 200px;
+    height: 75px;
+    margin: 0px auto;
+    color: var(--grey);
+    font-size: 15pt;
+    font-weight: 100;
+    border: 2.5px solid var(--grey);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.pricingGrid_tile:first-of-type button {
+    width: 200px;
+    height: 75px;
+    margin: 0px auto;
+    color: var(--white);
+    font-size: 15pt;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--darkGreen);
+}
+
+
+.pricingGrid_tile .crossThrough {
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 600px){
+    .pricingWrapper p {
+        color: var(--grey);
+        font-size: 14pt;
+        text-align: left;
+        margin-top: 50px;
+    }
+    
+    .pricingWrapper strong {
+        color: var(--grey);
+        font-size: 14pt;
+    }
+    
+    .pricingGrid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 25px;
+        width: 75%;
+        margin: 25px auto;
+    }
+    
+    .pricingGrid_tile p {
+        text-align: center;
+    }
+    
+    .pricingGrid_tile li{
+        font-size: 16pt;
+    }
+    
+    .pricingGrid_tile button {
+        width: 200px;
+        height: 50px;
+        margin: 0px auto;
+        color: var(--grey);
+        font-size: 12pt;
+        font-weight: 100;
+        border: 2.5px solid var(--grey);
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: var(--white);
+    }
+    
+    .pricingGrid_tile:first-of-type button {
+        height: 50px;
+        font-size: 12pt;
+    }
+}
