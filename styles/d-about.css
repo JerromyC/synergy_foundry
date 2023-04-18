@@ -1,3 +1,7 @@
+#about {
+    overflow: hidden;
+}
+
 .aboutWrapper p:first-of-type {
     font-size: 20pt;
 }

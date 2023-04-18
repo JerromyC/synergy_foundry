@@ -2,6 +2,7 @@
 @import url(./c-intro.css);
 @import url(./d-about.css);
 @import url(./e-pricing.css);
+@import url(./neon.css);
 
 :root {
     --grey: #333333;
